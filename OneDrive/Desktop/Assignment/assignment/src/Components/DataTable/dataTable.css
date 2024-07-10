@@ -1,0 +1,27 @@
+
+    .status{
+        background-color: green;
+        text-align: center;
+        padding: auto;;
+    }
+    .css-1ygcj2i-MuiTableCell-root{
+        color: darkgray !important;
+    }
+    .button{
+        #btn{
+            left: 6px;
+        }
+        .outlined-basic{
+            left: 10x !important
+        }
+        display: flex;
+        flex-direction: row;
+ 
+    }
+    .arrowIcon{
+        top:-7px
+    }
+    .dottedLines{
+        
+        top:-7px
+    }
