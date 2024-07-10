@@ -1,0 +1,188 @@
+2024-07-03 14:30:12; INFO; Aura Pluing; 12252; 13264] [AuraListener] DataCollection24hr Trigger data collection !!
+2024-07-03 14:30:12; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:30:12; INFO; Utility Plugin; 12252; 12652] Enter NotifyBitLockerStatus()
+2024-07-03 14:30:12; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:30:12; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before System Folder
+2024-07-03 14:30:12; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-07-03 14:30:12; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-07-03 14:30:13; INFO; Aura Pluing; 12252; 13264] Start InsertData to UserBehavior.
+2024-07-03 14:30:13; INFO; Aura Pluing; 12252; 13264] CallLibrary Start
+2024-07-03 14:30:13; INFO; Aura Pluing; 12252; 13264] CallLibrary End
+2024-07-03 14:30:13; INFO; Aura Pluing; 12252; 13264] CallLibrary Start
+2024-07-03 14:30:13; INFO; Aura Pluing; 12252; 13264] CallLibrary End
+2024-07-03 14:30:13; ERROR; Aura Pluing; 12252; 13264] End InsertData to AuraPlugin, result:0x80004005.
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before release COM
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After release COM
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] Becuase bitlocker status is the same, does not need to notify bios
+
+2024-07-03 14:30:13; INFO; Utility Plugin; 12252; 12652] NotifyBitLockerStatus() Finish
+2024-07-03 14:30:13; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:30:13; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:30:13; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:30:13; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:30:13; INFO; Loopback Stream; 12252; 23256] CallLibrary Start
+2024-07-03 14:30:13; INFO; Loopback Stream; 12252; 23256] CallLibrary End
+2024-07-03 14:30:14; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:30:14; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:30:14; CRITICAL; Utility Plugin; 12252; 12652] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display On
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] open display notiy bios bitlocker status
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] Enter NotifyBitLockerStatus()
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before System Folder
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before release COM
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After release COM
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Enter
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] m_uiPCR7BindingStatus = 3
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Finish, successful
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] Fail because bios does not support WMI ID 0x00060096
+
+2024-07-03 14:30:14; INFO; Utility Plugin; 12252; 12652] NotifyBitLockerStatus() Finish
+2024-07-03 14:30:16; INFO; Loopback Stream; 12252; 24216] CallLibrary Start
+2024-07-03 14:30:16; INFO; Loopback Stream; 12252; 24216] CallLibrary End
+2024-07-03 14:30:16; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:30:16; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:30:18; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:30:18; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:30:21; INFO; User Session Manager; 12252; 12096] OnSessionChange Start
+2024-07-03 14:30:21; INFO; User Session Manager; 12252; 12096] OnSessionChange End
+2024-07-03 14:30:21; ERROR; SoulKey Plugin; 12252; 12524] UserSession:1, OnSessionChange: Event:8
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] SessionChange-Login notify bitlocker status
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] Enter NotifyBitLockerStatus()
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before System Folder
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before release COM
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After release COM
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Enter
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] m_uiPCR7BindingStatus = 3
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Finish, successful
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] Fail because bios does not support WMI ID 0x00060096
+
+2024-07-03 14:30:21; INFO; Utility Plugin; 12252; 12652] NotifyBitLockerStatus() Finish
+2024-07-03 14:30:46; INFO; Loopback Stream; 12252; 23156] CallLibrary Start
+2024-07-03 14:30:46; INFO; Loopback Stream; 12252; 23156] CallLibrary End
+2024-07-03 14:31:16; INFO; Loopback Stream; 12252; 4240] CallLibrary Start
+2024-07-03 14:31:16; INFO; Loopback Stream; 12252; 4240] CallLibrary End
+2024-07-03 14:31:44; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:31:44; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:31:46; INFO; Loopback Stream; 12252; 26476] CallLibrary Start
+2024-07-03 14:31:46; INFO; Loopback Stream; 12252; 26476] CallLibrary End
+2024-07-03 14:31:59; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:31:59; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:32:00; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:32:00; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:32:16; INFO; Loopback Stream; 12252; 22980] CallLibrary Start
+2024-07-03 14:32:16; INFO; Loopback Stream; 12252; 22980] CallLibrary End
+2024-07-03 14:32:46; INFO; Loopback Stream; 12252; 24604] CallLibrary Start
+2024-07-03 14:32:46; INFO; Loopback Stream; 12252; 24604] CallLibrary End
+2024-07-03 14:33:16; INFO; Loopback Stream; 12252; 22712] CallLibrary Start
+2024-07-03 14:33:16; INFO; Loopback Stream; 12252; 22712] CallLibrary End
+2024-07-03 14:33:46; INFO; Loopback Stream; 12252; 3616] CallLibrary Start
+2024-07-03 14:33:46; INFO; Loopback Stream; 12252; 3616] CallLibrary End
+2024-07-03 14:34:16; INFO; Loopback Stream; 12252; 25844] CallLibrary Start
+2024-07-03 14:34:16; INFO; Loopback Stream; 12252; 25844] CallLibrary End
+2024-07-03 14:34:46; INFO; Loopback Stream; 12252; 14988] CallLibrary Start
+2024-07-03 14:34:46; INFO; Loopback Stream; 12252; 14988] CallLibrary End
+2024-07-03 14:35:16; INFO; Loopback Stream; 12252; 22940] CallLibrary Start
+2024-07-03 14:35:16; INFO; Loopback Stream; 12252; 22940] CallLibrary End
+2024-07-03 14:35:46; INFO; Loopback Stream; 12252; 22904] CallLibrary Start
+2024-07-03 14:35:46; INFO; Loopback Stream; 12252; 22904] CallLibrary End
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:36:14; INFO; Loopback Stream; 12252; 23496] CallLibrary Start
+2024-07-03 14:36:14; INFO; Throttle Plugin; 12252; 23496] DisplayThrottleOSD: OSDType 1, OSDMessage 255, PopToast 1, Result 1
+2024-07-03 14:36:14; INFO; Loopback Stream; 12252; 23496] CallLibrary End
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:36:14; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): ResetGVMode() reason = WM_DISPLAYCHANGE
+2024-07-03 14:36:14; ERROR; GameVisual Plugin; 12252; 14104] GameVisualPlugin::QueryDispConf(): GetDisplayConfigBufferSizes return 0x00000000
+
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 14:36:14; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 14:36:15; ERROR; GameVisual Plugin; 12252; 14104] GameVisualPlugin::QueryDispConf(): GetDisplayConfigBufferSizes return 0x00000000
+
+2024-07-03 14:36:15; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::GetIsGameVisualSupportedCurrentDisplayTopology(): topology_id = 1
+2024-07-03 14:36:15; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): RequestSplendid(200, 0, 50) Result = 0
+2024-07-03 14:36:15; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): SetGVModeCoreNoCheck(11) Result = 0
+2024-07-03 14:36:16; INFO; Loopback Stream; 12252; 24124] CallLibrary Start
+2024-07-03 14:36:16; INFO; Loopback Stream; 12252; 24124] CallLibrary End
+2024-07-03 14:36:46; INFO; Loopback Stream; 12252; 13232] CallLibrary Start
+2024-07-03 14:36:46; INFO; Loopback Stream; 12252; 13232] CallLibrary End
+2024-07-03 14:36:47; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:36:47; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:36:57; INFO; User Session Manager; 12252; 12096] OnDeviceChange Start
+2024-07-03 14:36:57; INFO; User Session Manager; 12252; 12096] OnDeviceChange End
+2024-07-03 14:37:16; INFO; Loopback Stream; 12252; 1988] CallLibrary Start
+2024-07-03 14:37:16; INFO; Loopback Stream; 12252; 1988] CallLibrary End
+2024-07-03 14:37:32; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 14:37:32; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 14:37:32; CRITICAL; Utility Plugin; 12252; 12652] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display Off
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] close display, notify bios bitlocker status
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] Enter NotifyBitLockerStatus()
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before System Folder
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before release COM
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After release COM
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Enter
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] m_uiPCR7BindingStatus = 3
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] CheckPCR7Stats() Finish, successful
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] Fail because bios does not support WMI ID 0x00060096
+
+2024-07-03 14:37:32; INFO; Utility Plugin; 12252; 12652] NotifyBitLockerStatus() Finish
+2024-07-03 14:40:33; WARNING; AEF Core; 12252; 22972] (UWPInfoMonitor(MyASUS))(MyASUS)Receive Updating event but find the same version:4.0.16.0
+2024-07-03 14:40:33; WARNING; AEF Core; 12252; 22972] (UWPInfoMonitor(MyASUS))(MyASUS)Receive Updating event but find the same version:4.0.16.0
+2024-07-03 15:37:53; INFO; User Session Manager; 12252; 12096] OnSessionChange Start
+2024-07-03 15:37:53; ERROR; SoulKey Plugin; 12252; 12524] UserSession:1, OnSessionChange: Event:7
+2024-07-03 15:37:53; INFO; User Session Manager; 12252; 12096] OnSessionChange End
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 15:51:05; INFO; Loopback Stream; 12252; 25808] CallLibrary Start
+2024-07-03 15:51:05; INFO; Throttle Plugin; 12252; 25808] DisplayThrottleOSD: OSDType 1, OSDMessage 255, PopToast 1, Result 1
+2024-07-03 15:51:05; INFO; Loopback Stream; 12252; 25808] CallLibrary End
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange Start
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnPowerChange End
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 15:51:05; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 15:51:07; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): ResetGVMode() reason = WM_DISPLAYCHANGE
+2024-07-03 15:51:07; ERROR; GameVisual Plugin; 12252; 14104] GameVisualPlugin::QueryDispConf(): GetDisplayConfigBufferSizes return 0x00000000
+
+2024-07-03 15:51:07; ERROR; GameVisual Plugin; 12252; 14104] GameVisualPlugin::QueryDispConf(): GetDisplayConfigBufferSizes return 0x00000000
+
+2024-07-03 15:51:07; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::GetIsGameVisualSupportedCurrentDisplayTopology(): topology_id = 1
+2024-07-03 15:51:08; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage Start
+2024-07-03 15:51:08; INFO; User Session Manager; 12252; 12096] OnRegisteredWindowMessage End
+2024-07-03 15:51:09; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): RequestSplendid(200, 0, 50) Result = 0
+2024-07-03 15:51:10; INFO; GameVisual Plugin; 12252; 14104] GameVisualPlugin::ResetGVMode(): SetGVModeCoreNoCheck(11) Result = 0

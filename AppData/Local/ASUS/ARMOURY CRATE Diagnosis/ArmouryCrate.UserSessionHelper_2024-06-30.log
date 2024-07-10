@@ -1,0 +1,329 @@
+2024-06-30 21:12:32; INFO; Aura Pluing; 6416; 11300] [AuraListener] DataCollection24hr Trigger data collection !!
+2024-06-30 21:12:32; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:12:32; INFO; Utility Plugin; 6416; 12068] Enter NotifyBitLockerStatus()
+2024-06-30 21:12:32; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:12:32; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before System Folder
+2024-06-30 21:12:32; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-06-30 21:12:32; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-06-30 21:12:33; INFO; Aura Pluing; 6416; 11300] Start InsertData to UserBehavior.
+2024-06-30 21:12:33; INFO; Aura Pluing; 6416; 11300] CallLibrary Start
+2024-06-30 21:12:33; INFO; Aura Pluing; 6416; 11300] CallLibrary End
+2024-06-30 21:12:33; INFO; Aura Pluing; 6416; 11300] CallLibrary Start
+2024-06-30 21:12:33; INFO; Aura Pluing; 6416; 11300] CallLibrary End
+2024-06-30 21:12:33; ERROR; Aura Pluing; 6416; 11300] End InsertData to AuraPlugin, result:0x80004005.
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before release COM
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After release COM
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] Becuase bitlocker status is the same, does not need to notify bios
+
+2024-06-30 21:12:33; INFO; Utility Plugin; 6416; 12068] NotifyBitLockerStatus() Finish
+2024-06-30 21:12:33; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:12:33; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:12:34; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:12:34; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:12:34; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:12:34; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:12:34; CRITICAL; Utility Plugin; 6416; 12068] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display On
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] open display notiy bios bitlocker status
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] Enter NotifyBitLockerStatus()
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before System Folder
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before release COM
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After release COM
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Enter
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] m_uiPCR7BindingStatus = 3
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Finish, successful
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] Fail because bios does not support WMI ID 0x00060096
+
+2024-06-30 21:12:34; INFO; Utility Plugin; 6416; 12068] NotifyBitLockerStatus() Finish
+2024-06-30 21:12:34; INFO; Loopback Stream; 6416; 33072] CallLibrary Start
+2024-06-30 21:12:34; INFO; Loopback Stream; 6416; 33072] CallLibrary End
+2024-06-30 21:12:37; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:12:37; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:12:38; INFO; User Session Manager; 6416; 5828] OnSessionChange Start
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] SessionChange-Login notify bitlocker status
+2024-06-30 21:12:38; INFO; User Session Manager; 6416; 5828] OnSessionChange End
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] Enter NotifyBitLockerStatus()
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before System Folder
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-06-30 21:12:38; ERROR; SoulKey Plugin; 6416; 11676] UserSession:1, OnSessionChange: Event:8
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before release COM
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After release COM
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Enter
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] m_uiPCR7BindingStatus = 3
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Finish, successful
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] Fail because bios does not support WMI ID 0x00060096
+
+2024-06-30 21:12:38; INFO; Utility Plugin; 6416; 12068] NotifyBitLockerStatus() Finish
+2024-06-30 21:12:53; INFO; Loopback Stream; 6416; 33648] CallLibrary Start
+2024-06-30 21:12:53; INFO; Loopback Stream; 6416; 33648] CallLibrary End
+2024-06-30 21:12:59; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:12:59; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:13:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:13:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:01; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:13:01; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:02; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:13:02; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:02; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:13:02; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:13:23; INFO; Loopback Stream; 6416; 35548] CallLibrary Start
+2024-06-30 21:13:23; INFO; Loopback Stream; 6416; 35548] CallLibrary End
+2024-06-30 21:13:53; INFO; Loopback Stream; 6416; 31044] CallLibrary Start
+2024-06-30 21:13:53; INFO; Loopback Stream; 6416; 31044] CallLibrary End
+2024-06-30 21:14:23; INFO; Loopback Stream; 6416; 32760] CallLibrary Start
+2024-06-30 21:14:23; INFO; Loopback Stream; 6416; 32760] CallLibrary End
+2024-06-30 21:14:53; INFO; Loopback Stream; 6416; 22288] CallLibrary Start
+2024-06-30 21:14:53; INFO; Loopback Stream; 6416; 22288] CallLibrary End
+2024-06-30 21:14:58; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:14:58; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:15:09; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:15:09; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:15:23; INFO; Loopback Stream; 6416; 17652] CallLibrary Start
+2024-06-30 21:15:23; INFO; Loopback Stream; 6416; 17652] CallLibrary End
+2024-06-30 21:15:53; INFO; Loopback Stream; 6416; 31172] CallLibrary Start
+2024-06-30 21:15:53; INFO; Loopback Stream; 6416; 31172] CallLibrary End
+2024-06-30 21:16:09; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:16:09; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:16:23; INFO; Loopback Stream; 6416; 31480] CallLibrary Start
+2024-06-30 21:16:23; INFO; Loopback Stream; 6416; 31480] CallLibrary End
+2024-06-30 21:16:53; INFO; Loopback Stream; 6416; 31956] CallLibrary Start
+2024-06-30 21:16:53; INFO; Loopback Stream; 6416; 31956] CallLibrary End
+2024-06-30 21:17:23; INFO; Loopback Stream; 6416; 22360] CallLibrary Start
+2024-06-30 21:17:23; INFO; Loopback Stream; 6416; 22360] CallLibrary End
+2024-06-30 21:17:28; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:17:28; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:17:28; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:17:28; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:17:53; INFO; Loopback Stream; 6416; 15840] CallLibrary Start
+2024-06-30 21:17:53; INFO; Loopback Stream; 6416; 15840] CallLibrary End
+2024-06-30 21:17:59; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:17:59; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:18:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:18:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:18:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:18:00; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:18:23; INFO; Loopback Stream; 6416; 6268] CallLibrary Start
+2024-06-30 21:18:23; INFO; Loopback Stream; 6416; 6268] CallLibrary End
+2024-06-30 21:18:53; INFO; Loopback Stream; 6416; 33472] CallLibrary Start
+2024-06-30 21:18:53; INFO; Loopback Stream; 6416; 33472] CallLibrary End
+2024-06-30 21:19:23; INFO; Loopback Stream; 6416; 34204] CallLibrary Start
+2024-06-30 21:19:23; INFO; Loopback Stream; 6416; 34204] CallLibrary End
+2024-06-30 21:19:53; INFO; Loopback Stream; 6416; 2080] CallLibrary Start
+2024-06-30 21:19:53; INFO; Loopback Stream; 6416; 2080] CallLibrary End
+2024-06-30 21:20:23; INFO; Loopback Stream; 6416; 34184] CallLibrary Start
+2024-06-30 21:20:23; INFO; Loopback Stream; 6416; 34184] CallLibrary End
+2024-06-30 21:20:53; INFO; Loopback Stream; 6416; 34712] CallLibrary Start
+2024-06-30 21:20:53; INFO; Loopback Stream; 6416; 34712] CallLibrary End
+2024-06-30 21:21:23; INFO; Loopback Stream; 6416; 28292] CallLibrary Start
+2024-06-30 21:21:23; INFO; Loopback Stream; 6416; 28292] CallLibrary End
+2024-06-30 21:21:36; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:21:36; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:21:53; INFO; Loopback Stream; 6416; 2552] CallLibrary Start
+2024-06-30 21:21:53; INFO; Loopback Stream; 6416; 2552] CallLibrary End
+2024-06-30 21:22:23; INFO; Loopback Stream; 6416; 31992] CallLibrary Start
+2024-06-30 21:22:23; INFO; Loopback Stream; 6416; 31992] CallLibrary End
+2024-06-30 21:22:53; INFO; Loopback Stream; 6416; 29516] CallLibrary Start
+2024-06-30 21:22:53; INFO; Loopback Stream; 6416; 29516] CallLibrary End
+2024-06-30 21:23:23; INFO; Loopback Stream; 6416; 23400] CallLibrary Start
+2024-06-30 21:23:23; INFO; Loopback Stream; 6416; 23400] CallLibrary End
+2024-06-30 21:23:53; INFO; Loopback Stream; 6416; 22316] CallLibrary Start
+2024-06-30 21:23:53; INFO; Loopback Stream; 6416; 22316] CallLibrary End
+2024-06-30 21:24:23; INFO; Loopback Stream; 6416; 26612] CallLibrary Start
+2024-06-30 21:24:23; INFO; Loopback Stream; 6416; 26612] CallLibrary End
+2024-06-30 21:24:53; INFO; Loopback Stream; 6416; 21364] CallLibrary Start
+2024-06-30 21:24:53; INFO; Loopback Stream; 6416; 21364] CallLibrary End
+2024-06-30 21:25:23; INFO; Loopback Stream; 6416; 34876] CallLibrary Start
+2024-06-30 21:25:23; INFO; Loopback Stream; 6416; 34876] CallLibrary End
+2024-06-30 21:25:53; INFO; Loopback Stream; 6416; 14288] CallLibrary Start
+2024-06-30 21:25:53; INFO; Loopback Stream; 6416; 14288] CallLibrary End
+2024-06-30 21:26:23; INFO; Loopback Stream; 6416; 21800] CallLibrary Start
+2024-06-30 21:26:23; INFO; Loopback Stream; 6416; 21800] CallLibrary End
+2024-06-30 21:26:53; INFO; Loopback Stream; 6416; 27736] CallLibrary Start
+2024-06-30 21:26:53; INFO; Loopback Stream; 6416; 27736] CallLibrary End
+2024-06-30 21:27:23; INFO; Loopback Stream; 6416; 6472] CallLibrary Start
+2024-06-30 21:27:23; INFO; Loopback Stream; 6416; 6472] CallLibrary End
+2024-06-30 21:27:53; INFO; Loopback Stream; 6416; 18476] CallLibrary Start
+2024-06-30 21:27:53; INFO; Loopback Stream; 6416; 18476] CallLibrary End
+2024-06-30 21:28:23; INFO; Loopback Stream; 6416; 25656] CallLibrary Start
+2024-06-30 21:28:23; INFO; Loopback Stream; 6416; 25656] CallLibrary End
+2024-06-30 21:28:25; WARNING; AEF Core; 6416; 12456] Get Asus Device Change Message msg:7, device:64, modelname:FX506HE, id:
+2024-06-30 21:28:25; INFO; Aura Pluing; 6416; 12456] CallLibrary Start
+2024-06-30 21:28:25; INFO; Aura Pluing; 6416; 12456] CallLibrary End
+2024-06-30 21:28:30; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:28:30; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:28:30; INFO; User Session Manager; 6416; 5828] OnDeviceChange Start
+2024-06-30 21:28:30; INFO; User Session Manager; 6416; 5828] OnDeviceChange End
+2024-06-30 21:28:53; INFO; Loopback Stream; 6416; 31672] CallLibrary Start
+2024-06-30 21:28:53; INFO; Loopback Stream; 6416; 31672] CallLibrary End
+2024-06-30 21:29:23; INFO; Loopback Stream; 6416; 20560] CallLibrary Start
+2024-06-30 21:29:23; INFO; Loopback Stream; 6416; 20560] CallLibrary End
+2024-06-30 21:29:53; INFO; Loopback Stream; 6416; 30068] CallLibrary Start
+2024-06-30 21:29:53; INFO; Loopback Stream; 6416; 30068] CallLibrary End
+2024-06-30 21:30:23; INFO; Loopback Stream; 6416; 22028] CallLibrary Start
+2024-06-30 21:30:23; INFO; Loopback Stream; 6416; 22028] CallLibrary End
+2024-06-30 21:30:53; INFO; Loopback Stream; 6416; 35452] CallLibrary Start
+2024-06-30 21:30:53; INFO; Loopback Stream; 6416; 35452] CallLibrary End
+2024-06-30 21:31:23; INFO; Loopback Stream; 6416; 20784] CallLibrary Start
+2024-06-30 21:31:23; INFO; Loopback Stream; 6416; 20784] CallLibrary End
+2024-06-30 21:31:53; INFO; Loopback Stream; 6416; 25300] CallLibrary Start
+2024-06-30 21:31:53; INFO; Loopback Stream; 6416; 25300] CallLibrary End
+2024-06-30 21:32:23; INFO; Loopback Stream; 6416; 33540] CallLibrary Start
+2024-06-30 21:32:23; INFO; Loopback Stream; 6416; 33540] CallLibrary End
+2024-06-30 21:32:53; INFO; Loopback Stream; 6416; 5148] CallLibrary Start
+2024-06-30 21:32:53; INFO; Loopback Stream; 6416; 5148] CallLibrary End
+2024-06-30 21:33:23; INFO; Loopback Stream; 6416; 2968] CallLibrary Start
+2024-06-30 21:33:23; INFO; Loopback Stream; 6416; 2968] CallLibrary End
+2024-06-30 21:33:53; INFO; Loopback Stream; 6416; 30208] CallLibrary Start
+2024-06-30 21:33:53; INFO; Loopback Stream; 6416; 30208] CallLibrary End
+2024-06-30 21:34:23; INFO; Loopback Stream; 6416; 16032] CallLibrary Start
+2024-06-30 21:34:23; INFO; Loopback Stream; 6416; 16032] CallLibrary End
+2024-06-30 21:34:53; INFO; Loopback Stream; 6416; 1448] CallLibrary Start
+2024-06-30 21:34:53; INFO; Loopback Stream; 6416; 1448] CallLibrary End
+2024-06-30 21:35:23; INFO; Loopback Stream; 6416; 19528] CallLibrary Start
+2024-06-30 21:35:23; INFO; Loopback Stream; 6416; 19528] CallLibrary End
+2024-06-30 21:35:53; INFO; Loopback Stream; 6416; 8544] CallLibrary Start
+2024-06-30 21:35:53; INFO; Loopback Stream; 6416; 8544] CallLibrary End
+2024-06-30 21:36:23; INFO; Loopback Stream; 6416; 18344] CallLibrary Start
+2024-06-30 21:36:23; INFO; Loopback Stream; 6416; 18344] CallLibrary End
+2024-06-30 21:36:53; INFO; Loopback Stream; 6416; 14044] CallLibrary Start
+2024-06-30 21:36:53; INFO; Loopback Stream; 6416; 14044] CallLibrary End
+2024-06-30 21:37:24; INFO; Loopback Stream; 6416; 27504] CallLibrary Start
+2024-06-30 21:37:24; INFO; Loopback Stream; 6416; 27504] CallLibrary End
+2024-06-30 21:37:54; INFO; Loopback Stream; 6416; 35180] CallLibrary Start
+2024-06-30 21:37:54; INFO; Loopback Stream; 6416; 35180] CallLibrary End
+2024-06-30 21:38:24; INFO; Loopback Stream; 6416; 16864] CallLibrary Start
+2024-06-30 21:38:24; INFO; Loopback Stream; 6416; 16864] CallLibrary End
+2024-06-30 21:38:54; INFO; Loopback Stream; 6416; 15928] CallLibrary Start
+2024-06-30 21:38:54; INFO; Loopback Stream; 6416; 15928] CallLibrary End
+2024-06-30 21:39:24; INFO; Loopback Stream; 6416; 24292] CallLibrary Start
+2024-06-30 21:39:24; INFO; Loopback Stream; 6416; 24292] CallLibrary End
+2024-06-30 21:39:54; INFO; Loopback Stream; 6416; 416] CallLibrary Start
+2024-06-30 21:39:54; INFO; Loopback Stream; 6416; 416] CallLibrary End
+2024-06-30 21:40:24; INFO; Loopback Stream; 6416; 11976] CallLibrary Start
+2024-06-30 21:40:24; INFO; Loopback Stream; 6416; 11976] CallLibrary End
+2024-06-30 21:40:54; INFO; Loopback Stream; 6416; 15816] CallLibrary Start
+2024-06-30 21:40:54; INFO; Loopback Stream; 6416; 15816] CallLibrary End
+2024-06-30 21:41:24; INFO; Loopback Stream; 6416; 17304] CallLibrary Start
+2024-06-30 21:41:24; INFO; Loopback Stream; 6416; 17304] CallLibrary End
+2024-06-30 21:41:54; INFO; Loopback Stream; 6416; 4676] CallLibrary Start
+2024-06-30 21:41:54; INFO; Loopback Stream; 6416; 4676] CallLibrary End
+2024-06-30 21:42:24; INFO; Loopback Stream; 6416; 26900] CallLibrary Start
+2024-06-30 21:42:24; INFO; Loopback Stream; 6416; 26900] CallLibrary End
+2024-06-30 21:42:54; INFO; Loopback Stream; 6416; 22448] CallLibrary Start
+2024-06-30 21:42:54; INFO; Loopback Stream; 6416; 22448] CallLibrary End
+2024-06-30 21:43:24; INFO; Loopback Stream; 6416; 23428] CallLibrary Start
+2024-06-30 21:43:24; INFO; Loopback Stream; 6416; 23428] CallLibrary End
+2024-06-30 21:43:54; INFO; Loopback Stream; 6416; 33292] CallLibrary Start
+2024-06-30 21:43:54; INFO; Loopback Stream; 6416; 33292] CallLibrary End
+2024-06-30 21:44:24; INFO; Loopback Stream; 6416; 19248] CallLibrary Start
+2024-06-30 21:44:24; INFO; Loopback Stream; 6416; 19248] CallLibrary End
+2024-06-30 21:44:54; INFO; Loopback Stream; 6416; 17132] CallLibrary Start
+2024-06-30 21:44:54; INFO; Loopback Stream; 6416; 17132] CallLibrary End
+2024-06-30 21:45:24; INFO; Loopback Stream; 6416; 2816] CallLibrary Start
+2024-06-30 21:45:24; INFO; Loopback Stream; 6416; 2816] CallLibrary End
+2024-06-30 21:45:54; INFO; Loopback Stream; 6416; 7760] CallLibrary Start
+2024-06-30 21:45:54; INFO; Loopback Stream; 6416; 7760] CallLibrary End
+2024-06-30 21:46:24; INFO; Loopback Stream; 6416; 16616] CallLibrary Start
+2024-06-30 21:46:24; INFO; Loopback Stream; 6416; 16616] CallLibrary End
+2024-06-30 21:46:54; INFO; Loopback Stream; 6416; 22176] CallLibrary Start
+2024-06-30 21:46:54; INFO; Loopback Stream; 6416; 22176] CallLibrary End
+2024-06-30 21:47:24; INFO; Loopback Stream; 6416; 5172] CallLibrary Start
+2024-06-30 21:47:24; INFO; Loopback Stream; 6416; 5172] CallLibrary End
+2024-06-30 21:47:54; INFO; Loopback Stream; 6416; 5792] CallLibrary Start
+2024-06-30 21:47:54; INFO; Loopback Stream; 6416; 5792] CallLibrary End
+2024-06-30 21:48:01; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:48:01; CRITICAL; Utility Plugin; 6416; 12068] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display is dimmed
+2024-06-30 21:48:01; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:48:05; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:48:05; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:48:05; CRITICAL; Utility Plugin; 6416; 12068] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display On
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] open display notiy bios bitlocker status
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] Enter NotifyBitLockerStatus()
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before System Folder
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before release COM
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After release COM
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Enter
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] m_uiPCR7BindingStatus = 3
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Finish, successful
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] Fail because bios does not support WMI ID 0x00060096
+
+2024-06-30 21:48:05; INFO; Utility Plugin; 6416; 12068] NotifyBitLockerStatus() Finish
+2024-06-30 21:48:24; INFO; Loopback Stream; 6416; 18024] CallLibrary Start
+2024-06-30 21:48:24; INFO; Loopback Stream; 6416; 18024] CallLibrary End
+2024-06-30 21:48:54; INFO; Loopback Stream; 6416; 24316] CallLibrary Start
+2024-06-30 21:48:54; INFO; Loopback Stream; 6416; 24316] CallLibrary End
+2024-06-30 21:49:24; INFO; Loopback Stream; 6416; 35744] CallLibrary Start
+2024-06-30 21:49:24; INFO; Loopback Stream; 6416; 35744] CallLibrary End
+2024-06-30 21:49:54; INFO; Loopback Stream; 6416; 16104] CallLibrary Start
+2024-06-30 21:49:54; INFO; Loopback Stream; 6416; 16104] CallLibrary End
+2024-06-30 21:50:24; INFO; Loopback Stream; 6416; 23836] CallLibrary Start
+2024-06-30 21:50:24; INFO; Loopback Stream; 6416; 23836] CallLibrary End
+2024-06-30 21:50:54; INFO; Loopback Stream; 6416; 9080] CallLibrary Start
+2024-06-30 21:50:54; INFO; Loopback Stream; 6416; 9080] CallLibrary End
+2024-06-30 21:51:24; INFO; Loopback Stream; 6416; 6684] CallLibrary Start
+2024-06-30 21:51:24; INFO; Loopback Stream; 6416; 6684] CallLibrary End
+2024-06-30 21:51:54; INFO; Loopback Stream; 6416; 10244] CallLibrary Start
+2024-06-30 21:51:54; INFO; Loopback Stream; 6416; 10244] CallLibrary End
+2024-06-30 21:52:24; INFO; Loopback Stream; 6416; 16596] CallLibrary Start
+2024-06-30 21:52:24; INFO; Loopback Stream; 6416; 16596] CallLibrary End
+2024-06-30 21:52:54; INFO; Loopback Stream; 6416; 32804] CallLibrary Start
+2024-06-30 21:52:54; INFO; Loopback Stream; 6416; 32804] CallLibrary End
+2024-06-30 21:53:24; INFO; Loopback Stream; 6416; 35360] CallLibrary Start
+2024-06-30 21:53:24; INFO; Loopback Stream; 6416; 35360] CallLibrary End
+2024-06-30 21:53:54; INFO; Loopback Stream; 6416; 13292] CallLibrary Start
+2024-06-30 21:53:54; INFO; Loopback Stream; 6416; 13292] CallLibrary End
+2024-06-30 21:54:24; INFO; Loopback Stream; 6416; 27120] CallLibrary Start
+2024-06-30 21:54:24; INFO; Loopback Stream; 6416; 27120] CallLibrary End
+2024-06-30 21:54:54; INFO; Loopback Stream; 6416; 15112] CallLibrary Start
+2024-06-30 21:54:54; INFO; Loopback Stream; 6416; 15112] CallLibrary End
+2024-06-30 21:55:24; INFO; Loopback Stream; 6416; 33372] CallLibrary Start
+2024-06-30 21:55:24; INFO; Loopback Stream; 6416; 33372] CallLibrary End
+2024-06-30 21:55:30; INFO; User Session Manager; 6416; 5828] OnPowerChange Start
+2024-06-30 21:55:30; INFO; User Session Manager; 6416; 5828] OnPowerChange End
+2024-06-30 21:55:30; CRITICAL; Utility Plugin; 6416; 12068] OnPowerChange(GUID_CONSOLE_DISPLAY_STATE): eventType:32787, Display Off
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] close display, notify bios bitlocker status
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] Enter NotifyBitLockerStatus()
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before System Folder
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After System Folder is C:\Windows\system32
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before IsBitLockerEnabled()
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Try Get ConversaionStatus
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Finish Get ConversaionStatus
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before release COM
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After release COM
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After IsBitLockerEnabled() = 1
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Enter
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] m_uiPCR7BindingStatus = 3
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] CheckPCR7Stats() Finish, successful
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: Before Two_WMIMethod_INT()
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] dwBitLockerEnable = 1 ; m_b2023Project = 0 ; m_uiPCR7BindingStatus = 3
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] IsBitLockerEnabled: After Two_WMIMethod_INT()
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] Fail because bios does not support WMI ID 0x00060096
+
+2024-06-30 21:55:30; INFO; Utility Plugin; 6416; 12068] NotifyBitLockerStatus() Finish
