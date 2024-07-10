@@ -1,5 +1,4 @@
-import * as React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -11,7 +10,6 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import { InputLabel } from '@mui/material';
 import "./dataTable.css";
 import { Typography } from "@mui/material";
 
@@ -42,14 +40,12 @@ export default function BasicTable() {
   const [search, setSearch] = useState();
 
   const onChange = (e) => {
-    console.log(e.target.value, "value");
     const value = e.target.value;
     value.length === 0 ? setResponse(rows) : setSearch(value);
   };
   const searchFn = () => {
     let res = response.filter((ele) => {
-        console.log(ele.projectName.includes(search))
-      if (ele.projectName.includes(search)) {
+      if (ele.projectName.toLowerCase().includes(search)) {
         return { ...ele};
       }
     });
