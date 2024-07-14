@@ -1,0 +1,11 @@
+.cards{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.dottedLines1{
+    left: 88px;
+    top: 12px;
+}
+.table{
+    margin-top: 44px;
+}
